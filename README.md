@@ -1,40 +1,38 @@
-# FastAPI OpenAI Starter
+# FastAPI OpenAI Practice API
 
-A simple FastAPI starter project for building AI-powered backend APIs using the OpenAI API.
+A simple practice project for building AI-powered API endpoints using **Python**, **FastAPI**, and the **OpenAI API**.
 
-This project is designed for learning how to create a Python backend with FastAPI, connect it to the OpenAI API, and expose clean API endpoints for AI-powered features.
+This project includes several AI endpoints such as:
 
-## 🚀 Features
+- AI text summarization
+- AI translation
+- AI title generation
+- AI code explanation
 
-- FastAPI backend setup
-- OpenAI API integration
-- Environment variable configuration
-- Simple AI chat endpoint
-- Clean project structure
-- Beginner-friendly codebase
-- Ready for future AI SaaS or chatbot projects
+---
 
-## 🛠 Tech Stack
+## Tech Stack
 
-- Python
+- Python 3.12
 - FastAPI
 - OpenAI API
 - Uvicorn
 - Pydantic
 - python-dotenv
 
-## 📁 Project Structure
+---
 
-```txt
-fastapi-openai-starter/
+## Project Structure
+
+```text
+fastapi-openai-api/
 │
 ├── app/
 │   ├── main.py
-│   ├── config.py
-│   └── routes/
-│       └── ai.py
+│   ├── schemas.py
+│   └── openai_service.py
 │
-├── .env.example
+├── .env
 ├── .gitignore
 ├── requirements.txt
 └── README.md
